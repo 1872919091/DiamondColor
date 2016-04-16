@@ -89,6 +89,11 @@ public class HomeActivity extends BaseActivity implements OnClickListener { // é
 
 			@Override
 			public Fragment getItem(int position) {
+				System.out.println("getItem:position:"+position);
+				System.out.println("getItem:FragmentFactoryManage.getInstance():"+FragmentFactoryManage.getInstance());
+				System.out.println("getItem:createFragmentFactory():"+FragmentFactoryManage.getInstance().createFragmentFactory());
+				System.out.println("getItem:FragmentFactory:"+FragmentFactoryManage.getInstance().createFragmentFactory().createFragment(position));
+				
 				return  FragmentFactoryManage.getInstance().createFragmentFactory().createFragment(position);
 			}
 		});
