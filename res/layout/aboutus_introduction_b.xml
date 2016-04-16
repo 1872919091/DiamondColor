@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/abc_intro_introtext02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/shape_white"
+        android:gravity="center"
+        android:text="产品以及在欧洲各国销售50年，包括什么什么国家，产品以及在欧洲各国销售50年，
+             包括什么什么国家，产品以及在欧洲各国销售50年，包括什么什么国家，产品以及在欧洲各国销售50年，包括什么什么国家，
+             产品以及在欧洲各国销售50年，包括什么什么国家，产品以及在欧洲各国销售50年，包括什么什么国家。"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/abc_intro_introimage02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abc_intro_introtext"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/guoqi" />
+
+</RelativeLayout>

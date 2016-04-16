@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D9D9"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_product_data3d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_product_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_login_div_bg"
+            android:gravity="center"
+            android:text="产品序列名称标题"
+            android:textColor="#292929" />
+        
+        
+        <FrameLayout 
+            android:id="@+id/fl_image_switch_view"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            />
+
+      <!--   <com.my.diamond.view.Image3DSwitchView
+            android:id="@+id/image_switch_view"
+            android:layout_width="match_parent"
+            android:layout_height="126dp" >
+        </com.my.diamond.view.Image3DSwitchView> -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_product_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_below="@id/ll_product_data3d" >
+
+        <TextView
+            android:id="@+id/tv_product_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4F4F4F"
+            android:text="产品详情信息产品详情信息产品详情信息产品产品详情信息产品详情信情信息,产品详情信息产品详情信
+            息产品详情信息产品产品详情信息产品详情信情信息产品详情信息产品详情信息产品详情信息产品产" />
+
+        <Button
+            android:id="@+id/bt_product_learnmore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="了解更多" />
+    </LinearLayout>
+
+ 
+
+    <ImageView
+        android:id="@+id/ab_intro_backs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/ab_intro_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10sp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo_small" />
+
+</RelativeLayout>

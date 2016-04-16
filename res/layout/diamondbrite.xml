@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buttonLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|right"
+    android:layout_marginBottom="15dp"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/show_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#00000000"
+        android:visibility="invisible" >
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/button_home"
+            android:background="@null" />
+
+        <ImageButton
+            android:id="@+id/about_us"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:src="@drawable/button_au"
+            android:scaleType="fitXY" 
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/product"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/button_pro"
+            android:adjustViewBounds="true" 
+            android:scaleType="fitXY"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/connect"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/button_con"
+            android:adjustViewBounds="true" 
+            android:scaleType="fitXY"
+            android:background="@null"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:src="@drawable/menu" />
+
+</LinearLayout>
